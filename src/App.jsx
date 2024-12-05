@@ -1,7 +1,7 @@
 import { Route,  Routes } from "react-router-dom"
 import Homepage from "./page/Homepage"
 import MainLayout from "./components/MainLayout"
-import Login from "./page/login"
+
 import Accessory from "./page/CategoryOfProduct/productOfComputer/Accessory"
 import Cpu from "./page/CategoryOfProduct/productOfComputer/Cpu"
 import Combo from "./page/CategoryOfProduct/productOfComputer/Combo"
@@ -27,7 +27,7 @@ function App() {
                        <Route path='category/coolingpad' element={<Coolingpad/>} />
                        <Route path='category/diy' element={<DIY/>} />
                    </Route>
-                    <Route path="/login" element={<Login/>} />
+                   
         </Routes>
     </>
   )
